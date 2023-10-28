@@ -25,3 +25,5 @@ Get image list by breed and subbreed is in Tab four. First select the breed, the
 The code architecture has a feature folder where each on of the four features has been addressed.
 
 Unit tests are in test folder. They require an active internet connection to run
+
+BLoC was used for state management
