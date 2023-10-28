@@ -23,3 +23,5 @@ Get random image by breed and subbreed is in Tab three. First select the breed ,
 Get image list by breed and subbreed is in Tab four. First select the breed, then the subbreed and the image list appears.
 
 The code architecture has a feature folder where each on of the four features has been addressed.
+
+Unit tests are in test folder. They require an active internet connection to run
