@@ -142,9 +142,10 @@ class RandomSubBreed extends StatelessWidget {
                       color: Colors.teal,
                     );
                   }, loaded: (String imageUrl) {
-                    return ClipRRect(
-                        borderRadius: BorderRadius.circular(Adapt.px(10)),
-                        child: Image.network(imageUrl));
+                    return Padding(
+                      padding: const EdgeInsets.only(right: 20.0),
+                      child: Image.network(imageUrl),
+                    );
                   }, error: (String erroMessage) {
                     return Container();
                   });

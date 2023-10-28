@@ -88,7 +88,7 @@ class RandomBreed extends StatelessWidget {
                       return const Center(child: Text('Random image is empty'));
                     } else {
                       return Padding(
-                          padding: const EdgeInsets.only(bottom: 20.0),
+                          padding: const EdgeInsets.only(right: 20.0),
                           child: CustomNetworkImage(
                             imageUrl: imageUrl,
                           ));
